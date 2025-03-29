@@ -55,13 +55,13 @@
         .container {
             
             max-width: 1200px;
-            margin: 0;
+            margin: 5px;
             padding: var(--spacing-md);
         }
 
         .section {
-            margin: var(--spacing-lg);
-            padding: var(--spacing-lg);
+            margin: 0;
+            padding: 3px;
             border: var(--border-width) solid var(--text);
             box-shadow: var(--shadow);
             background-color: var(--light);
