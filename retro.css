@@ -53,10 +53,8 @@
 
         /* Layout */
         .container {
-            
-            max-width: 1200px;
-            margin: 5px;
-            padding: var(--spacing-md);
+            margin: 1px;
+            padding: 0px;
         }
 
         .section {
