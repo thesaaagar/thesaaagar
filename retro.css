@@ -1015,4 +1015,17 @@ input[type=file]::file-selector-button:hover {
         .hidden {
             display: none;
         }
-    
+
+
+
+
+.quality-control { background-color: rgba(255, 230, 109, 0.2); border: 2px dashed var(--text); padding: 5px; }
+.quality-value { font-weight: bold; color: var(--retro-accent, #d32f2f); }
+
+/* Retro Style for Range Input */
+input[type="range"] { -webkit-appearance: none; width: 100%; height: 13px; background: #1a535c; border-radius: 5px; outline: none; opacity: 0.9; transition: opacity 0.2s; }
+input[type="range"]:hover { opacity: 1; }
+input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 25px; height: 25px; background: #ff6b6b; border: 2px solid var(--retro-border, #333); border-radius: 50%; cursor: pointer;}
+
+
+
