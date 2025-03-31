@@ -884,3 +884,135 @@ input[type=file]::file-selector-button:hover {
             .nav {
                 flex-direction: column;
                 align-items: center;  }  }
+
+
+
+
+
+
+
+
+
+        /* Custom styles for the image converter */
+        .preview-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .preview-item {
+            position: relative;
+            border: var(--border-width) solid var(--text);
+            box-shadow: var(--shadow);
+            padding: 0.5rem;
+            background-color: var(--light);
+        }
+
+        .preview-image {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            margin: 0 auto 0.5rem;
+            display: block;
+            background-color: #f0f0f0;
+        }
+
+        .preview-info {
+            font-size: 0.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .preview-info .file-name {
+            font-weight: bold;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 100%;
+            display: block;
+        }
+
+        .preview-info .size-info {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .preview-info .new-size {
+            color: var(--danger);
+        }
+
+        .preview-actions {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 0.5rem;
+        }
+
+        .action-button {
+            background-color: var(--light);
+            border: var(--border-width) solid var(--text);
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: var(--shadow);
+        }
+
+        .action-button:hover {
+            background-color: var(--accent);
+        }
+
+        .action-button svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        .download-all-container {
+            text-align: center;
+            margin-top: 1.5rem;
+            display: none;
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            color: white;
+            font-size: 1.5rem;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s, visibility 0.3s;
+        }
+
+        .overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+      
+
+        @media (max-width: 768px) {
+            .preview-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 769px) {
+            .preview-container {
+                grid-template-columns: repeat(5, 1fr);
+            }
+        }
+
+        .hidden {
+            display: none;
+        }
+    
