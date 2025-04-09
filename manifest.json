@@ -1,0 +1,22 @@
+{
+    "name":"Your Website Title",
+    "short_name":"Your Website Short Name",
+    "start_url":"index.php",
+    "display":"standalone",
+    "background_color":"#5e72e4",
+    "theme_color":"black",
+    "scope": ".",
+    "description":"Your description will be here.",
+    "icons":[
+    {
+    "src":"logo-512x512.png",                     
+    "sizes":"192x192",
+    "type":"image/png"
+    },
+    {
+    "src":"logo-512x512.png",
+    "sizes":"512x512",
+    "type":"image/png"
+    }
+  ]
+}
