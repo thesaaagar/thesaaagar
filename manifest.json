@@ -25,5 +25,26 @@
     "productivity",
     "security",
     "utilities"
+  ],
+  "dir": "ltr",
+  "orientation": "any",
+  "display_override": [
+    "fullscreen",
+    "minimal-ui",
+    "standalone",
+    "window-controls-overlay",
+    "browser"
+  ],
+  "shortcuts": [
+    {
+      "name": "Sagar",
+      "url": "https://sagarxtools.blogspot.com/p/png-to-jpg-converter.html",
+      "description": "Png to jpg"
+    },
+    {
+      "name": "Sgusbs",
+      "url": "https://sagarxtools.blogspot.com/p/png-to-jg-converter.html",
+      "description": "Hsysh"
+    }
   ]
 }
