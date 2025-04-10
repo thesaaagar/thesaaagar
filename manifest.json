@@ -1,22 +1,29 @@
 {
-    "name":"sagarXtool",
-    "short_name":"sagarXtool",
-    "start_url":"/",
-    "display":"standalone",
-    "background_color":"#5e72e4",
-    "theme_color":"black",
-    "scope": ".",
-    "description":"Your description will be here.",
-    "icons":[
+  "name": "sagarXtool",
+  "short_name": "sagarXtool - thesaaagar",
+  "start_url": "/p/all.html",
+  "display": "standalone",
+  "background_color": "#ff6b6b",
+  "theme_color": "#1a535c",
+  "scope": ".",
+  "description": "SagarXTool is a fast, secure, and minimal Progressive Web App (PWA) offering a suite of powerful online tools for everyday productivity. Designed with a clean retro aesthetic, it enables users to perform essential tasks like image conversion, PDF manipulation, resizing, DPI change, signature editing, and much more — all from a single platform.\n\nWith offline support, lightweight performance, and zero installation barriers, SagarXTool runs smoothly on both mobile and desktop browsers. Every tool is crafted with precision, ensuring high usability, fast output, and accurate results. No ads, no clutter — just tools that work.\n\nWhether you're a developer, designer, student, or business user, SagarXTool helps you get the job done faster — anytime, anywhere.",
+  "icons": [
     {
-    "src":"https://cdn-icons-png.flaticon.com/512/11240/11240664.png",                     
-    "sizes":"192x192",
-    "type":"https://cdn-icons-png.flaticon.com/512/11240/11240664.png"
+      "src": "https://cdn-icons-png.flaticon.com/512/11240/11240664.png",
+      "sizes": "192x192",
+      "type": "https://cdn-icons-png.flaticon.com/512/11240/11240664.png"
     },
     {
-    "src":"https://cdn-icons-png.flaticon.com/512/11240/11240664.png",
-    "sizes":"512x512",
-    "type":"image/png"
+      "src": "https://cdn-icons-png.flaticon.com/512/11240/11240664.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
+  ],
+  "id": "thesagarxtool",
+  "lang": "en",
+  "categories": [
+    "productivity",
+    "security",
+    "utilities"
   ]
 }
