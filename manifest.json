@@ -1,67 +1,83 @@
-{
-  "name": "sagarXtool",
-  "short_name": "sagarXtool - thesaaagar",
-  "start_url": "/p/all.html",
-  "display": "standalone",
-  "background_color": "#ff6b6b",
-  "theme_color": "#1a535c",
-  "scope": ".",
-  "description": "SagarXTool is a fast, secure, and minimal Progressive Web App (PWA) offering a suite of powerful online tools for everyday productivity. Designed with a clean retro aesthetic, it enables users to perform essential tasks like image conversion, PDF manipulation, resizing, DPI change, signature editing, and much more — all from a single platform.\n\nWith offline support, lightweight performance, and zero installation barriers, SagarXTool runs smoothly on both mobile and desktop browsers. Every tool is crafted with precision, ensuring high usability, fast output, and accurate results. No ads, no clutter — just tools that work.\n\nWhether you're a developer, designer, student, or business user, SagarXTool helps you get the job done faster — anytime, anywhere.",
-  "icons": [
-    {
-      "src": "https://cdn-icons-png.flaticon.com/512/11240/11240664.png",
-      "sizes": "192x192",
-      "type": "image/png"
+{  
+  "name": "sagarXtool by @thesaaagar",  
+  "short_name": "sagarXtool",  
+  "start_url": "/p/all.html",  
+  "display": "standalone",  
+  "background_color": "#1a535c",  
+  "theme_color": "#ff6b6b",  
+  "scope": ".",  
+  "description": "SagarXTool is a fast, secure, and minimal Progressive Web App (PWA) offering a suite of powerful online tools for everyday productivity. Designed with a clean retro aesthetic, it enables users to perform essential tasks like image conversion, PDF manipulation, resizing, DPI change, signature editing, and much more — all from a single platform.\n\nWith offline support, lightweight performance, and zero installation barriers, SagarXTool runs smoothly on both mobile and desktop browsers. Every tool is crafted with precision, ensuring high usability, fast output, and accurate results. No ads, no clutter — just tools that work.\n\nWhether you're a developer, designer, student, or business user, SagarXTool helps you get the job done faster — anytime, anywhere.",  
+  "icons": [  
+    {  
+      "src": "https://cdn-icons-png.flaticon.com/512/11240/11240664.png",  
+      "sizes": "192x192",  
+      "type": "https://cdn-icons-png.flaticon.com/512/11240/11240664.png"  
+    },  
+    {  
+      "src": "https://cdn-icons-png.flaticon.com/512/11240/11240664.png",  
+      "sizes": "512x512",  
+      "type": "image/png"  
+    }  
+  ],  
+  "id": "thesagarxtool",  
+  "lang": "en",  
+  "categories": [  
+    "productivity",  
+    "security",  
+    "utilities"  
+  ],  
+  "dir": "ltr",  
+  "orientation": "any",  
+  "display_override": [  
+    "fullscreen",  
+    "minimal-ui",  
+    "standalone",  
+    "window-controls-overlay",  
+    "browser"  
+  ],  
+  "shortcuts": [  
+    {  
+      "name": "Compress Image",  
+      "url": "https://sagarxtools.blogspot.com/2025/04/compress-image.html",  
+      "description": "Compress Image"  
+    },  
+    {  
+      "name": "Fancy Font",  
+      "url": "https://sagarxtools.blogspot.com/2024/07/fancy-instagram-font.html",  
+      "description": "Hsysh"  
     },
-    {
-      "src": "https://cdn-icons-png.flaticon.com/512/11240/11240664.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ],
-  "id": "thesagarxtool",
-  "lang": "en",
-  "categories": [
-    "productivity",
-    "security",
-    "utilities"
-  ],
-  "dir": "ltr",
-  "orientation": "any",
-  "display_override": [
-    "fullscreen",
-    "minimal-ui",
-    "standalone",
-    "window-controls-overlay",
-    "browser"
-  ],
-  "shortcuts": [
-    {
-      "name": "PNG to JPG",
-      "url": "https://sagarxtools.blogspot.com/2025/03/png-to-jpg-converter.html",
-      "description": "Png to jpg",
-      "icons": [
-        {
-          "src": "https://cdn-icons-png.flaticon.com/512/11683/11683987.png",
-          "sizes": "128x128",
-          "type": "image/png"
-        }
-      ]
+    {  
+      "name": "QR Code Generater",  
+      "url": "https://sagarxtools.blogspot.com/2024/07/qr-code-generator.html",  
+      "description": "Hsysh"  
     },
-    {
-      "name": "JPG to PNG",
-      "url": "https://sagarxtools.blogspot.com/2025/03/jpg-to-png-converter.html",
-      "description": "JPG to PNG",
-      "icons": [
-        {
-          "src": "https://cdn-icons-png.flaticon.com/128/1828/1828911.png",
-          "sizes": "128x128",
-          "type": "image/png"
-        }
-      ]
+    {  
+      "name": "QR Code Scan",  
+      "url": "https://sagarxtools.blogspot.com/p/png-to-jg-converter.html",  
+      "description": "Hsysh"  
+    },
+    {  
+      "name": "PinCode",  
+      "url": "https://sagarxtools.blogspot.com/2024/08/pincode-finder.html",  
+      "description": "Hsysh"  
     }
-  ]
-}
+
+  ]  
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
