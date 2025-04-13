@@ -1,97 +1,89 @@
 {
-    "name": "SagarXTools",
-    "short_name": "SagarX",
-    "description": "All-in-one toolset by SagarX with full PWA support.",
-    "start_url": "./index.html",
-    "display": "standalone",
-    "display_override": [
-        "standalone",
-        "browser"
-    ],
-    "background_color": "#ffffff",
-    "theme_color": "#000000",
-    "icons": [
-        {
-            "src": "icons/icon-192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "icons/icon-512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ],
-    "screenshots": [
-        {
-            "src": "screenshots/screenshot1.png",
-            "sizes": "540x720",
-            "type": "image/png"
-        }
-    ],
-    "iarc_rating_id": "eC2023",
-    "prefer_related_applications": true,
-    "related_applications": [
-        {
-            "platform": "play",
-            "url": "https://play.google.com/store/apps/details?id=com.example.sagarx",
-            "id": "com.example.sagarx"
-        }
-    ],
-    "scope": "./",
-    "scope_extensions": [
-        {
-            "origin": "https://sagarxtools.blogspot.com"
-        }
-    ],
-    "launch_handler": {
-        "client_mode": "focus-existing"
+  "name": "sagarXtool",
+  "short_name": "sagarXtool - thesaaagar",
+  "start_url": "/p/all.html",
+  "display": "standalone",
+  "background_color": "#ff6b6b",
+  "theme_color": "#1a535c",
+  "scope": ".",
+  "description": "SagarXTool is a fast, secure, and minimal Progressive Web App (PWA) offering a suite of powerful online tools for everyday productivity. Designed with a clean retro aesthetic, it enables users to perform essential tasks like image conversion, PDF manipulation, resizing, DPI change, signature editing, and much more — all from a single platform.\n\nWith offline support, lightweight performance, and zero installation barriers, SagarXTool runs smoothly on both mobile and desktop browsers. Every tool is crafted with precision, ensuring high usability, fast output, and accurate results. No ads, no clutter — just tools that work.\n\nWhether you're a developer, designer, student, or business user, SagarXTool helps you get the job done faster — anytime, anywhere.",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/11240/11240664.png",
+      "sizes": "192x192",
+      "type": "image/png"
     },
-    "shortcuts": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/11240/11240664.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "id": "thesagarxtool",
+  "lang": "en",
+  "categories": [
+    "productivity",
+    "security",
+    "utilities"
+  ],
+  "dir": "ltr",
+  "orientation": "any",
+  "display_override": [
+    "fullscreen",
+    "minimal-ui",
+    "standalone",
+    "window-controls-overlay",
+    "browser"
+  ],
+  "shortcuts": [
+    {
+      "name": "PNG to JPG",
+      "url": "https://sagarxtools.blogspot.com/2025/03/png-to-jpg-converter.html",
+      "description": "Png to jpg",
+      "icons": [
         {
-            "name": "Convert JPG to PNG",
-            "url": "/?tool=jpg-to-png",
-            "icons": [
-                {
-                    "src": "icons/icon-192.png",
-                    "sizes": "192x192"
-                }
-            ]
+          "src": "https://cdn-icons-png.flaticon.com/512/11683/11683987.png",
+          "sizes": "128x128",
+          "type": "image/png"
         }
-    ],
-    "file_handlers": [
-        {
-            "action": "/handle-file",
-            "accept": {
-                "image/*": [
-                    ".jpg",
-                    ".png"
-                ]
-            }
-        }
-    ],
-    "handle_links": "preferred",
-    "protocol_handlers": [
-        {
-            "protocol": "web+sagarx",
-            "url": "/?link=%s"
-        }
-    ],
-    "share_target": {
-        "action": "/share",
-        "method": "POST",
-        "enctype": "multipart/form-data",
-        "params": {
-            "title": "name",
-            "text": "description",
-            "url": "link"
-        }
+      ]
     },
-    "widgets": [
+    {
+      "name": "JPG to PNG",
+      "url": "https://sagarxtools.blogspot.com/2025/03/jpg-to-png-converter.html",
+      "description": "JPG to PNG",
+      "icons": [
         {
-            "name": "Tool Widget",
-            "description": "A widget to launch your favorite tool",
-            "url": "/widget.html"
+          "src": "https://cdn-icons-png.flaticon.com/128/1828/1828911.png",
+          "sizes": "128x128",
+          "type": "image/png"
         }
-    ]
+      ]
+    }
+  ]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
