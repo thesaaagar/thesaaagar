@@ -30,10 +30,7 @@
   "orientation": "any",  
   "display_override": [  
     "fullscreen",  
-    "minimal-ui",  
-    "standalone",  
-    "window-controls-overlay",  
-    "browser"  
+    "window-controls-overlay"
   ],  
   "shortcuts": [  
     {  
@@ -44,22 +41,22 @@
     {  
       "name": "Fancy Font",  
       "url": "https://sagarxtools.blogspot.com/2024/07/fancy-instagram-font.html",  
-      "description": "Hsysh"  
+      "description": "Instagram Fancy Font Generater"  
     },
     {  
       "name": "QR Code Generater",  
       "url": "https://sagarxtools.blogspot.com/2024/07/qr-code-generator.html",  
-      "description": "Hsysh"  
+      "description": "QR Code Generater"  
     },
     {  
       "name": "QR Code Scan",  
-      "url": "https://sagarxtools.blogspot.com/p/png-to-jg-converter.html",  
-      "description": "Hsysh"  
+      "url": "https://sagarxtools.blogspot.com/p/qr-code-scan.html",  
+      "description": "Qr Code Scan"  
     },
     {  
       "name": "PinCode",  
       "url": "https://sagarxtools.blogspot.com/2024/08/pincode-finder.html",  
-      "description": "Hsysh"  
+      "description": "PIN Code Finder"  
     }
 
   ]  
