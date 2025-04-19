@@ -1,0 +1,87 @@
+{  
+  "name": "Periods\n\n Calculator",  
+  "short_name": "Periods Calculator",  
+  "start_url": "/2025/04/periods-calculator.html",  
+  "display": "standalone",  
+  "background_color": "#1a535c",  
+  "theme_color": "#ff0011",  
+  "scope": ".",  
+  "description": "SagarXTool is a fast, secure, and minimal Progressive Web App (PWA) offering a suite of powerful online tools for everyday productivity. Designed with a clean retro aesthetic, it enables users to perform essential tasks like image conversion, PDF manipulation, resizing, DPI change, signature editing, and much more — all from a single platform.\n\nWith offline support, lightweight performance, and zero installation barriers, SagarXTool runs smoothly on both mobile and desktop browsers. Every tool is crafted with precision, ensuring high usability, fast output, and accurate results. No ads, no clutter — just tools that work.\n\nWhether you're a developer, designer, student, or business user, SagarXTool helps you get the job done faster — anytime, anywhere.",  
+  "icons": [  
+    {  
+      "src": "https://cdn-icons-png.flaticon.com/512/4080/4080381.png",  
+      "sizes": "192x192",  
+      "type": "https://cdn-icons-png.flaticon.com/512/4080/4080381.png"  
+    },  
+    {  
+      "src": "https://cdn-icons-png.flaticon.com/512/4080/4080381.png",  
+      "sizes": "512x512",  
+      "type": "image/png"  
+    }  
+  ],  
+  "id": "thesagarxtool",  
+  "lang": "en",  
+  "categories": [  
+    "productivity",  
+    "security",  
+    "utilities"  
+  ],  
+  "dir": "ltr",  
+  "orientation": "any",  
+  "display_override": [  
+    "fullscreen",  
+    "window-controls-overlay"
+  ],  
+  "shortcuts": [  
+    {  
+      "name": "Compress Image",  
+      "url": "https://sagarxtools.blogspot.com/2025/04/compress-image.html",  
+      "description": "Compress Image"  
+    },  
+    {  
+      "name": "PinCode",  
+      "url": "https://sagarxtools.blogspot.com/2024/08/pincode-finder.html",  
+      "description": "PIN Code Finder"  
+    }
+
+  ]  
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
