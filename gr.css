@@ -64,18 +64,16 @@ body {
 
 /* Layout */
 .container {
-    max-width: 1200px;
     margin: 0 auto;
 }
 
 .section {
-    margin-bottom: var(--spacing-sm);
-    padding: var(--spacing-md);
+    margin-bottom: var(--spacing-xs);
+    padding: var(--spacing-sm);
     border-radius: var(--border-radius);
     background: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7));
-    box-shadow: var(--shadow);
-    backdrop-filter: blur(5px);
-    border: 2px dashed #666;border-radius: 10px;
+    box-shadow: var(--shadow)
+    border: 2px dashed #666;border-radius: 5px;
 }
 
 .row {
