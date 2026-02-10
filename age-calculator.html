@@ -4,21 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Date and Age Calculator</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .result {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <h1>Premium Date and Age Calculator</h1>
-        <div class="input-group">
-            <label for="dob">Enter your Date of Birth:</label>
-            <input type="date" id="dob" required>
-            <button id="calculate">Calculate Age</button>
-        </div>
-        <div id="result"></div>
-        <canvas id="timelineCanvas"></canvas>
-        <div id="countdown"></div>
-        <div id="clock"></div>
+        <h1>Date and Age Calculator</h1>
+        <input type="date" id="dob" placeholder="Enter Date of Birth" required />
+        <button onclick="calculateAgeAndDateDifference()">Calculate Age & Date Difference</button>
+        <div class="result" id="result"></div>
+        <div class="overlay" id="overlay"></div>
     </div>
-    <script src="script.js"></script>
+    <script>
+        function calculateAgeAndDateDifference() {
+            const dobValue = document.getElementById('dob').value;
+            if (!dobValue) {
+                alert('Please select a date of birth.');
+                return;
+            }
+            const dob = new Date(dobValue);
+            const today = new Date();
+            const age = today.getFullYear() - dob.getFullYear();
+            const monthDifference = today.getMonth() - dob.getMonth();
+            if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < dob.getDate())) {
+                age--;
+            }
+            const ageMessage = `You are ${age} years old.`;
+            const nextBirthday = new Date(today.getFullYear(), dob.getMonth(), dob.getDate());
+            if (nextBirthday < today) {
+                nextBirthday.setFullYear(nextBirthday.getFullYear() + 1);
+            }
+            const daysUntilBirthday = Math.ceil((nextBirthday - today) / (1000 * 60 * 60 * 24));
+            const birthdayMessage = `Your next birthday is in ${daysUntilBirthday} days.`;
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = ageMessage + '<br>' + birthdayMessage;
+            // Additional functionalities can be implemented here
+        }
+    </script>
 </body>
 </html>
