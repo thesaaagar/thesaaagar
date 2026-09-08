@@ -852,46 +852,7 @@ footer, .footer { text-align: center; padding: 24px 20px; border-top: 1px solid 
 
 
 
-/* --- 33. Dark Theme Tokens & Auto Color Scheme --- */
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --md-primary: #a8c7fa;
-    --md-on-primary: #042e6f;
-    --md-primary-container: #0842a0;
-    --md-on-primary-container: #d3e3fd;
-    --md-secondary: #bdc7dc;
-    --md-on-secondary: #283141;
-    --md-secondary-container: #3e4758;
-    --md-surface: #111318;
-    --md-surface-container: #1e2025;
-    --md-surface-variant: #44474e;
-    --md-text: #e2e2e8;
-    --md-text-variant: #c4c6d0;
-    --md-outline: #8e9099;
-    --md-outline-variant: #44474e;
-    --md-border: #2d3036;
-    --md-chip-bg: #283141;
-  }
-}
-
-:root[data-theme="dark"] {
-  --md-primary: #a8c7fa;
-  --md-on-primary: #042e6f;
-  --md-primary-container: #0842a0;
-  --md-on-primary-container: #d3e3fd;
-  --md-secondary: #bdc7dc;
-  --md-on-secondary: #283141;
-  --md-secondary-container: #3e4758;
-  --md-surface: #111318;
-  --md-surface-container: #1e2025;
-  --md-surface-variant: #44474e;
-  --md-text: #e2e2e8;
-  --md-text-variant: #c4c6d0;
-  --md-outline: #8e9099;
-  --md-outline-variant: #44474e;
-  --md-border: #2d3036;
-  --md-chip-bg: #283141;
-}
+/* --- 33. 
 
 /* --- 34. M3 Standard Elevation Levels (0 to 5) --- */
 .elevation-0 { box-shadow: none; }
