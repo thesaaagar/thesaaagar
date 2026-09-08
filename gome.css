@@ -58,12 +58,9 @@
   padding: 0;
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
-  font-family: 'Google Sans', 'Roboto', sans-serif;
-}
+  font-family: 'Google Sans', 'Roboto', sans-serif;}
 
-html {
-  scroll-behavior: smooth;
-}
+html {  scroll-behavior: smooth;}
 
 body {
   background-color: var(--md-surface);
@@ -72,8 +69,7 @@ body {
   min-height: 100vh;
   padding: 5px;
   display: flex;
-  flex-direction: column;
-}
+  flex-direction: column;}
 
 @keyframes spin {
   0% { transform: rotate(0deg); }
@@ -86,9 +82,9 @@ body {
 }
 
 /* --- 3. Layout Classes --- */
-.container { width: 100%; max-width: 900px; margin: 0 auto; padding: 0 10px; }
-.main-container { width: 100%; max-width: 1000px; margin: 0 auto; padding: 20px; flex-grow: 1; }
-.section { padding: 10px 0; }
+.container { width: 100%; max-width: 900px; margin: 0 auto; padding: 0 5px; }
+.main-container { width: 100%; max-width: 900px; margin: 0 auto; padding: 10px; flex-grow: 1; }
+.section { padding: 9px 0; }
 .row { display: flex; flex-wrap: wrap; gap: 20px; }
 .col { flex: 1; min-width: 280px; }
 
@@ -191,7 +187,7 @@ p { color: var(--md-text-variant); margin-bottom: 16px; }
   justify-content: center;
   align-items: center;
   gap: 8px;
-  padding: 10px 24px;
+  padding: 10px 15px;
   font-size: 15px;
   font-weight: 500;
   border-radius: var(--border-radius-full);
@@ -310,7 +306,7 @@ input[type="range"]::-moz-range-thumb { width: 20px; height: 20px; border-radius
 .card:hover { box-shadow: var(--md-elevation-2); transform: translateY(-2px); }
 
 .hero-banner {
-  background: linear-gradient(135deg, var(--md-primary) 0%, #1557bf 100%);
+  background: linear-gradient(135deg, var(--md-primary) 0%, #1597bf 100%);
   color: var(--md-on-primary);
   border-radius: var(--border-radius-xl);
   padding: 36px 24px;
@@ -323,9 +319,9 @@ input[type="range"]::-moz-range-thumb { width: 20px; height: 20px; border-radius
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  gap: 16px;
+  gap: 10px;
   background: var(--md-surface-container);
-  padding: 20px;
+  padding: 10px;
   border-radius: var(--border-radius-lg);
   border: 1px solid var(--md-outline-variant);
   box-shadow: var(--md-elevation-1);
@@ -852,7 +848,7 @@ footer, .footer { text-align: center; padding: 24px 20px; border-top: 1px solid 
 
 
 
-/* --- 33. 
+/* --- 33. Dark Theme Tokens & Auto Color Scheme --- */
 
 /* --- 34. M3 Standard Elevation Levels (0 to 5) --- */
 .elevation-0 { box-shadow: none; }
@@ -908,3 +904,4 @@ button:focus-visible,
     border: 1px solid #ccc !important;
   }
 }
+
