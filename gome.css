@@ -94,12 +94,12 @@ body {
 
 /* --- 4. Typography --- */
 h1, h2, h3, h4, h5, h6 { color: var(--md-text); font-weight: 500; margin-bottom: 10px; }
-h1 { font-size: 1.5rem; line-height: 1.2; }
-h2 { font-size: 1rem; }
-h3 { font-size: 0.75rem; }
-h4 { font-size: 0.50rem; }
-h5 { font-size: 0.25rem; }
-h6 { font-size: 0.15rem; }
+h1 { font-size: 2rem; line-height: 1.2; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1rem; }
+h4 { font-size: 0.75rem; }
+h5 { font-size: 0.50rem; }
+h6 { font-size: 0.25rem; }
 p { color: var(--md-text-variant); margin-bottom: 16px; }
 
 .blockquote { border-left: 4px solid var(--md-primary); padding-left: 16px; margin: 16px 0; font-style: italic; color: var(--md-text-variant); }
