@@ -7,48 +7,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700;800&family=Roboto:wght@400;500;700&display=swap');
 
 :root {
-  /* Brand & Core Semantic Colors */
-  --md-primary: #0b57d0;
+  /* Brand Primary & Slate Neutrals */
+  --md-primary: #E11D2E;
   --md-on-primary: #ffffff;
-  --md-primary-container: #d3e3fd;
-  --md-on-primary-container: #041e49;
-  --md-secondary: #535f70;
+  --md-primary-container: #ffe8ea;
+  --md-on-primary-container: #5c000c;
+
+  --md-secondary: #475569;
   --md-on-secondary: #ffffff;
-  --md-secondary-container: #d7e3f7;
-  --md-accent: #006a6a;
-  
-  /* Status Colors */
-  --md-danger: #b3261e;
-  --md-danger-container: #f9dedc;
+  --md-secondary-container: #e2e8f0;
+
+  --md-accent: #b91c1c;
+  --md-danger: #E11D2E;
+  --md-danger-container: #fee2e2;
   --md-success: #146c2e;
   --md-success-container: #c4eed0;
-  --md-warning: #8d5000;
-  --md-warning-container: #ffdcbe;
-  --md-info: #00639b;
-  --md-info-container: #cce5ff;
+  --md-warning: #b45309;
+  --md-warning-container: #ffedd5;
+  --md-info: #0284c7;
+  --md-info-container: #e0f2fe;
 
   /* Brand Accents */
-  --google-red: #ea4335;
+  --google-red: #E11D2E;
   --google-yellow: #fbbc05;
-  --md-chip-bg: #e8f0fe;
+  --md-chip-bg: #ffe8ea;
 
-  /* Surfaces & Borders */
-  --md-surface: #f8f9fa;
+  /* Surfaces, Text & Outlines (Using #F8FAFC & #0F172A) */
+  --md-surface: #F8FAFC;
   --md-surface-container: #ffffff;
-  --md-surface-variant: #e0e2ec;
-  --md-text: #1a1c1e;
-  --md-text-variant: #43474e;
-  --md-outline: #74777f;
-  --md-outline-variant: #c4c6d0;
-  --md-border: #dadce0;
+  --md-surface-variant: #f1f5f9;
+  --md-text: #0F172A;
+  --md-text-variant: #475569;
+  --md-outline: #94a3b8;
+  --md-outline-variant: #cbd5e1;
+  --md-border: #e2e8f0;
 
-  /* M3 Standard Elevations */
-  --md-elevation-0: none;
-  --md-elevation-1: 0 1px 3px 1px rgba(0, 0, 0, 0.15), 0 1px 2px 0 rgba(0, 0, 0, 0.30);
-  --md-elevation-2: 0 2px 6px 2px rgba(0, 0, 0, 0.15), 0 1px 2px 0 rgba(0, 0, 0, 0.30);
-  --md-elevation-3: 0 4px 8px 3px rgba(0, 0, 0, 0.15), 0 1px 3px 0 rgba(0, 0, 0, 0.30);
-  --md-elevation-4: 0 6px 10px 4px rgba(0, 0, 0, 0.15), 0 2px 3px 0 rgba(0, 0, 0, 0.30);
-  --md-elevation-5: 0 8px 12px 6px rgba(0, 0, 0, 0.15), 0 4px 4px 0 rgba(0, 0, 0, 0.30);
+  /* Elevation (Shadows) */
+  --md-elevation-1: 0 1px 2px rgba(15, 23, 42, 0.08), 0 1px 3px rgba(15, 23, 42, 0.04);
+  --md-elevation-2: 0 2px 6px rgba(15, 23, 42, 0.08), 0 1px 2px rgba(15, 23, 42, 0.04);
+  --md-elevation-3: 0 4px 8px rgba(15, 23, 42, 0.08), 0 1px 3px rgba(15, 23, 42, 0.04);
 
   /* Border Radii */
   --border-radius-sm: 8px;
@@ -475,14 +472,15 @@ input[type="range"]::-webkit-slider-thumb:hover {
 .card-elevated { background: var(--md-surface-container); box-shadow: var(--md-elevation-1); border: none; }
 
 .hero-banner {
-  background: linear-gradient(135deg, var(--md-primary) 0%, #1557bf 100%);
-  color: var(--md-on-primary);
+  background: linear-gradient(135deg, #E11D2E 0%, #b91c1c 100%);
+  color: #ffffff;
   border-radius: var(--border-radius-xl);
   padding: 36px 24px;
   box-shadow: var(--md-elevation-2);
 }
-.hero-banner h1, .hero-banner h2, .hero-banner h3 { color: var(--md-on-primary); }
 .hero-banner p { color: rgba(255, 255, 255, 0.9); }
+
+.hero-banner h1, .hero-banner h2, .hero-banner h3 { color: var(--md-on-primary); }
 
 .action-bar {
   display: flex;
