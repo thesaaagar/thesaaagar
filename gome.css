@@ -86,9 +86,9 @@ body {
 }
 
 /* --- 3. LAYOUT & GRIDS --- */
-.container { width: 100%; max-width: 900px; margin: 0 auto; padding: 0 16px; }
-.main-container { width: 100%; max-width: 1000px; margin: 0 auto; padding: 24px 16px; flex-grow: 1; }
-.section { padding: 16px 0; }
+.container { width: 100%; margin: 0 auto; padding: 0 5px; }
+.main-container { width: 100%; max-width: 1000px; margin: 0 auto; padding: 10px; flex-grow: 1; }
+.section { padding: 5px 0; }
 .row { display: flex; flex-wrap: wrap; gap: 20px; }
 .col { flex: 1; min-width: 280px; }
 
