@@ -81,7 +81,7 @@ body {
 }
 
 /* --- 3. LAYOUT & GRIDS --- */
-.container { width: 100%; padding: 5px; }
+.container { width: 100%; padding: 15px; }
 .main-container { width: 100%; max-width: 1000px; padding: 5px; flex-grow: 1; }
 .section { padding: 5px 0; }
 .row { display: flex; flex-wrap: wrap; gap: 20px; }
