@@ -94,6 +94,13 @@ body {
   flex-direction: column;
 }
 
+/* --- 3. LAYOUT & GRIDS --- */
+.container { width: 100%; max-width: 900px; margin: 0 auto; padding: 0 16px; }
+.main-container { width: 100%; max-width: 1000px; margin: 0 auto; padding: 24px 16px; flex-grow: 1; }
+.section { padding: 16px 0; }
+.row { display: flex; flex-wrap: wrap; gap: 20px; }
+.col { flex: 1; min-width: 280px; }
+
 .fa, .fas, .far, .fab {
   display: inline-flex;
   align-items: center;
