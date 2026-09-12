@@ -52,7 +52,7 @@
 
 /* --- 2. GLOBAL RESET & BASE SETUP --- */
 *, *::before, *::after {
-  margin: 0;
+  margin: 5px;
   padding: 0;
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
@@ -81,7 +81,7 @@ body {
 }
 
 /* --- 3. LAYOUT & GRIDS --- */
-.container { width: 100%; max-width: 900px; margin: 0 auto; padding: 0 0px; }
+.container { width: 100%; max-width: 900px; margin: 5px; padding: 0px; }
 .main-container { width: 100%; max-width: 1000px; padding: 0px 5px; flex-grow: 1; }
 .section { padding: 10px 0; }
 .row { display: flex; flex-wrap: wrap; gap: 20px; }
