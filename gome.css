@@ -635,17 +635,17 @@ input[type="range"]::-webkit-slider-thumb:hover {
   padding: 6px 2px;
 }
 .filter-chip {
-  border: 1px solid var(--md-outline-variant);
+  border: 2px solid var(--md-outline-variant);
   background: var(--md-surface-container);
-  padding: 6px 16px;
+  padding: 4px 10px;
   border-radius: var(--border-radius-full);
-  font-size: 13px;
+  font-size: 10px;
   font-weight: 500;
   color: var(--md-text-variant);
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 3px;
   white-space: nowrap;
   box-shadow: var(--md-elevation-1);
   transition: 0.18s;
