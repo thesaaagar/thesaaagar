@@ -1028,7 +1028,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
   justify-content: space-between;
   align-items: center;
   background: var(--md-surface-container);
-  color: #880036;
+  color: #000;
 }
 .faq-icon { transition: transform 0.25s ease; font-size: 14px; color: var(--md-text-variant); }
 .faq-item.active .faq-icon { transform: rotate(180deg); color: var(--md-primary); }
