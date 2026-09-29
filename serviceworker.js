@@ -1,6 +1,4 @@
-// File Name: sw.js
-// Basic Service Worker for PWA compliance
-
+// Service Worker for Standalone Tool Apps
 self.addEventListener('install', (event) => {
   self.skipWaiting();
 });
@@ -10,7 +8,7 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  // Network-first request handling
+  // Network-first basic fetch passthrough
   event.respondWith(
     fetch(event.request).catch(() => {
       return caches.match(event.request);
