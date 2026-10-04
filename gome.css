@@ -836,7 +836,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
 .upload-card, .file-upload-label {
   border: 2px dashed var(--md-primary);
   border-radius: var(--border-radius-md);
-  padding: 44px 24px;
+  padding: 20px 24px;
   text-align: center;
   background: var(--md-surface-container);
   position: relative;
@@ -845,12 +845,14 @@ input[type="range"]::-webkit-slider-thumb:hover {
   display: block;
   box-shadow: var(--md-elevation-1);
 }
+
 .upload-card:hover, .upload-card.dragover, .file-upload-label:hover {
   border-color: #be123c;
   background: var(--md-primary-container);
   transform: scale(1.01);
   box-shadow: var(--md-elevation-3);
 }
+
 .upload-card input[type="file"], .file-upload-input {
   position: absolute;
   inset: 0;
@@ -860,6 +862,8 @@ input[type="range"]::-webkit-slider-thumb:hover {
   cursor: pointer;
   z-index: 5;
 }
+
+/* --- ICON STYLING & ANIMATIONS --- */
 .upload-icon-circle {
   width: 68px;
   height: 68px;
@@ -872,7 +876,55 @@ input[type="range"]::-webkit-slider-thumb:hover {
   margin: 0 auto 16px;
   font-size: 28px;
   box-shadow: var(--md-elevation-1);
+
+  /* 1. DEFAULT (Bina Hover Ke): Hamesha infinite chalne wala floating loop */
+  animation: idleFloat 2.4s ease-in-out infinite;
+  will-change: transform;
 }
+
+/* 2. HOVER STATE: Animation badal kar excited bounce + tilt ban jayegi */
+.upload-card:hover .upload-icon-circle,
+.file-upload-label:hover .upload-icon-circle {
+  animation: hoverExcited 0.65s ease-in-out infinite alternate;
+}
+
+/* 3. DRAG OVER STATE: Drag karte waqt high-alert pulse */
+.upload-card.dragover .upload-icon-circle {
+  animation: dragPulse 0.5s ease-in-out infinite alternate;
+}
+
+/* --- KEYFRAMES --- */
+
+/* Normal state: Smooth floating up and down */
+@keyframes idleFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+}
+
+/* Hover state: Fast energetic hop with slight tilt */
+@keyframes hoverExcited {
+  0% {
+    transform: translateY(0) scale(1.05) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-9px) scale(1.15) rotate(-6deg);
+  }
+}
+
+/* Dragover state: Pumping scale effect */
+@keyframes dragPulse {
+  0% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1.22);
+  }
+}
+
 
 .preview-container {
   display: grid;
