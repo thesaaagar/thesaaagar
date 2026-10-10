@@ -1,0 +1,290 @@
+[
+  {
+    "cat": "identity",
+    "name": "UIDAI MyAadhaar Portal (यूआईडीएआई आधार पोर्टल)",
+    "url": "https://myaadhaar.uidai.gov.in/",
+    "desc": "नया आधार कार्ड डाउनलोड करें, आधार स्टेटस जांचें, पता बदलें, मोबाइल नंबर लिंक करें और पीवीसी कार्ड ऑर्डर करें।",
+    "icon": "fa-solid fa-fingerprint",
+    "logo": ""
+  },
+  {
+    "cat": "identity",
+    "name": "ECI Voter Portal - NVSP Migration (राष्ट्रीय मतदाता पोर्टल)",
+    "url": "https://voters.eci.gov.in/",
+    "desc": "नया वोटर आईडी कार्ड रजिस्टर करें, मतदाता सूची में नाम खोजें, सुधार (correction) करें और विधानसभा क्षेत्र बदलें।",
+    "icon": "fa-solid fa-check-to-slot",
+    "logo": ""
+  },
+  {
+    "cat": "identity",
+    "name": "NSDL Protean PAN Portal (एनएसडीएल पैन पोर्टल)",
+    "url": "https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html",
+    "desc": "नए पैन कार्ड के लिए आवेदन करें, पैन कार्ड में सुधार करें, ई-पैन डाउनलोड करें और एप्लीकेशन स्टेटस ट्रैक करें।",
+    "icon": "fa-solid fa-id-card",
+    "logo": ""
+  },
+  {
+    "cat": "identity",
+    "name": "UTIITSL PAN Portal (यूटीआई पैन पोर्टल)",
+    "url": "https://www.pan.utiitsl.com/panonline_otsp/",
+    "desc": "नया पैन कार्ड आवेदन, खोए हुए पैन का पीवीसी रीप्रिंट आर्डर, पता अपडेट और ई-पैन डाउनलोड सेवा।",
+    "icon": "fa-solid fa-address-card",
+    "logo": ""
+  },
+  {
+    "cat": "identity",
+    "name": "Passport Seva India (पासपोर्ट सेवा भारत)",
+    "url": "https://www.passportindia.gov.in/",
+    "desc": "नया पासपोर्ट या पासपोर्ट रिन्यूअल के लिए आवेदन करें, अपॉइंटमेंट स्लॉट बुक करें और अपनी फाइल ट्रैक करें।",
+    "icon": "fa-solid fa-passport",
+    "logo": ""
+  },
+  {
+    "cat": "identity",
+    "name": "Parivahan Sarathi - Driving License (सारथी ड्राइविंग लाइसेंस)",
+    "url": "https://sarathi.parivahan.gov.in/",
+    "desc": "लर्निंग या परमानेंट ड्राइविंग लाइसेंस के लिए ऑनलाइन आवेदन, लाइसेंस रिन्यूअल, नया वाहन वर्ग जोड़ना और ई-डीएल डाउनलोड।",
+    "icon": "fa-solid fa-id-badge",
+    "logo": ""
+  },
+  {
+    "cat": "identity",
+    "name": "Parivahan Vahan - Vehicle RC (वाहन आरसी पोर्टल)",
+    "url": "https://vahan.parivahan.gov.in/",
+    "desc": "गाड़ी के मालिक की जानकारी जांचें, रोड टैक्स का भुगतान करें, एनओसी (NOC) के लिए आवेदन करें और आरसी स्टेटस देखें।",
+    "icon": "fa-solid fa-car-side",
+    "logo": ""
+  },
+  {
+    "cat": "identity",
+    "name": "DigiLocker Online (डिजिलॉकर पोर्टल)",
+    "url": "https://www.digilocker.gov.in/",
+    "desc": "मार्कशीट, आरसी, डीएल, आधार और पैन जैसे डिजिटल सरकारी दस्तावेजों को कानूनी रूप से जारी और डाउनलोड करें।",
+    "icon": "fa-solid fa-cloud-arrow-down",
+    "logo": ""
+  },
+  {
+    "cat": "identity",
+    "name": "National Portal of India (भारत का राष्ट्रीय पोर्टल)",
+    "url": "https://www.india.gov.in/",
+    "desc": "भारत सरकार की सभी केंद्र और राज्य स्तरीय योजनाओं व नागरिक सेवाओं को खोजने का मुख्य केंद्रीय सर्च पोर्टल।",
+    "icon": "fa-solid fa-landmark-flag",
+    "logo": ""
+  },
+  {
+    "cat": "identity",
+    "name": "E-Shram Portal (ई-श्रम पोर्टल)",
+    "url": "https://eshram.gov.in/",
+    "desc": "असंगठित क्षेत्र के श्रमिकों के लिए ई-श्रम कार्ड का पंजीकरण और दुर्घटना बीमा योजना का लाभ प्राप्त करें।",
+    "icon": "fa-solid fa-helmet-safety",
+    "logo": ""
+  },
+  {
+    "cat": "identity",
+    "name": "Ayushman Bharat PMJAY (आयुष्मान भारत पीएमजेएवाई)",
+    "url": "https://beneficiary.nha.gov.in/",
+    "desc": "पात्रता जांचें, ₹5 लाख मुफ्त इलाज के लिए गोल्डन आयुष्मान हेल्थ कार्ड डाउनलोड और वेरीफाई करें।",
+    "icon": "fa-solid fa-heart-pulse",
+    "logo": ""
+  },
+  {
+    "cat": "identity",
+    "name": "Ration Card Portal - NFSA (राशन कार्ड राष्ट्रीय पोर्टल)",
+    "url": "https://nfsa.gov.in/",
+    "desc": "राज्यवार राशन कार्ड सूची, नई राशन पात्रता सूची जांचें और राशन आवंटन विवरण देखें।",
+    "icon": "fa-solid fa-wheat-awn",
+    "logo": ""
+  },
+  {
+    "cat": "farming",
+    "name": "Bhulekh UP - Land Records (भूलेख उत्तर प्रदेश)",
+    "url": "https://upbhulekh.gov.in/",
+    "desc": "उत्तर प्रदेश की भूमि के खसरा, खतौनी और गाटा संख्या की नकल देखें और म्यूटेशन की स्थिति जांचें।",
+    "icon": "fa-solid fa-map-location-dot",
+    "logo": ""
+  },
+  {
+    "cat": "farming",
+    "name": "PM-Kisan Samman Nidhi (पीएम किसान पोर्टल)",
+    "url": "https://pmkisan.gov.in/",
+    "desc": "किसान सम्मान निधि का स्टेटस देखें, ई-केवाईसी पूरी करें, नया पंजीकरण करें और किस्त विवरण जांचें।",
+    "icon": "fa-solid fa-hand-holding-dollar",
+    "logo": ""
+  },
+  {
+    "cat": "farming",
+    "name": "Biharbhumi Portal (भूलेख बिहार भूमि रिकॉर्ड)",
+    "url": "https://biharbhumi.bihar.gov.in/",
+    "desc": "बिहार भूमि का अपना खाता देखें, जमाबंदी पंजी की नकल खोजें और ऑनलाइन दाखिल-खारिज आवेदन करें।",
+    "icon": "fa-solid fa-file-invoice",
+    "logo": ""
+  },
+  {
+    "cat": "farming",
+    "name": "MP Bhulekh (भूलेख मध्य प्रदेश)",
+    "url": "https://mpbhulekh.gov.in/",
+    "desc": "मध्य प्रदेश के खसरा/खतौनी की प्रतिलिपि, भू-नक्शा डाउनलोड करें और स्वामित्व विवरण जांचें।",
+    "icon": "fa-solid fa-map",
+    "logo": ""
+  },
+  {
+    "cat": "farming",
+    "name": "MahaBhulekh - Satbara (महाभूलेख महाराष्ट्र)",
+    "url": "https://bhulekh.mahabhumi.gov.in/",
+    "desc": "महाराष्ट्र का 7/12 (सातबारा), 8A उतारा और फेरफार ऑनलाइन डिजिटल साइन के साथ डाउनलोड करें।",
+    "icon": "fa-solid fa-signature",
+    "logo": ""
+  },
+  {
+    "cat": "farming",
+    "name": "PM Fasal Bima Yojana (प्रधानमंत्री फसल बीमा)",
+    "url": "https://pmfby.gov.in/",
+    "desc": "फसलों के बीमे के लिए आवेदन करें, प्रीमियम राशि कैलकुलेट करें और फसल नुकसान की रिपोर्ट दर्ज करें।",
+    "icon": "fa-solid fa-umbrella",
+    "logo": ""
+  },
+  {
+    "cat": "farming",
+    "name": "e-NAM Agri Market (राष्ट्रीय कृषि बाजार)",
+    "url": "https://www.enam.gov.in/",
+    "desc": "किसानों के लिए कृषि उत्पाद बेचने का ऑनलाइन ट्रेडिंग पोर्टल, विभिन्न मंडियों के दैनिक दाम जांचें।",
+    "icon": "fa-solid fa-store",
+    "logo": ""
+  },
+  {
+    "cat": "farming",
+    "name": "PM-KUSUM Scheme (कुसुम सोलर पंप योजना)",
+    "url": "https://pmkusum.mnre.gov.in/",
+    "desc": "खेतों में सिंचाई के लिए सब्सिडी वाले सौर ऊर्जा जल पंप (सोलर पंप) का आवेदन विवरण।",
+    "icon": "fa-solid fa-solar-panel",
+    "logo": ""
+  },
+  {
+    "cat": "financial",
+    "name": "Income Tax e-Filing Portal (आयकर ई-फाइलिंग)",
+    "url": "https://www.incometax.gov.in/iec/foportal/",
+    "desc": "इनकम टैक्स रिटर्न (ITR) फाइल करें, रिफंड स्टेटस देखें, आईटीआर-वी वेरीफाई करें और टैक्स जमा करें।",
+    "icon": "fa-solid fa-receipt",
+    "logo": ""
+  },
+  {
+    "cat": "financial",
+    "name": "GST Common Portal India (जीएसटी कॉमन पोर्टल)",
+    "url": "https://www.gst.gov.in/",
+    "desc": "जीएसटी पंजीकरण, मासिक रिटर्न फाइलिंग (GSTR-1, 3B) और टैक्स पेयर सर्च।",
+    "icon": "fa-solid fa-coins",
+    "logo": ""
+  },
+  {
+    "cat": "financial",
+    "name": "EPFO Member Portal - PF login (पीएफ लॉगिन)",
+    "url": "https://unifiedportal-mem.epfindia.gov.in/memberinterface/",
+    "desc": "पीएफ विड्रॉल क्लेम करें, यूएएन (UAN) एक्टिवेट करें, ई-नॉमिनेशन और केवाईसी प्रोफाइल।",
+    "icon": "fa-solid fa-piggy-bank",
+    "logo": ""
+  },
+  {
+    "cat": "financial",
+    "name": "EPFO Passbook Portal (पीएफ पासबुक देखें)",
+    "url": "https://passbook.epfindia.gov.in/MemberPassBook/Login",
+    "desc": "अपने भविष्य निधि खाते (PF) का बैलेंस, मासिक योगदान और क्लेम सेटलमेंट स्टेटस देखें।",
+    "icon": "fa-solid fa-book-bookmark",
+    "logo": ""
+  },
+  {
+    "cat": "financial",
+    "name": "CIBIL Score Check Free (सिबिल स्कोर जांचें)",
+    "url": "https://www.cibil.com/freecibilscore",
+    "desc": "क्रेडिट कार्ड और लोन पात्रता के लिए अपना सिबिल स्कोर और क्रेडिट इतिहास मुफ्त में जांचें।",
+    "icon": "fa-solid fa-chart-line",
+    "logo": ""
+  },
+  {
+    "cat": "financial",
+    "name": "SBI Online NetBanking (एसबीआई नेटबैंकिंग)",
+    "url": "https://retail.onlinesbi.sbi/",
+    "desc": "स्टेट बैंक ऑफ इंडिया की रिटेल इंटरनेट बैंकिंग, मनी ट्रांसफर और कार्ड सेटिंग्स।",
+    "icon": "fa-solid fa-building-columns",
+    "logo": ""
+  },
+  {
+    "cat": "edu",
+    "name": "Sarkari Result (सरकारी रिजल्ट)",
+    "url": "https://www.sarkariresult.com/",
+    "desc": "लेटेस्ट सरकारी नौकरी भर्ती, ऑनलाइन फॉर्म, एडमिट कार्ड, परीक्षा का सिलेबस और आंसर की देखने का मुख्य पोर्टल।",
+    "icon": "fa-solid fa-newspaper",
+    "logo": ""
+  },
+  {
+    "cat": "edu",
+    "name": "National Scholarship Portal - NSP (राष्ट्रीय छात्रवृत्ति पोर्टल)",
+    "url": "https://scholarships.gov.in/",
+    "desc": "अल्पसंख्यक, अनुसूचित जाति, जनजाति और अन्य छात्र-छात्राओं के लिए प्री और पोस्ट मैट्रिक स्कॉलरशिप फॉर्म।",
+    "icon": "fa-solid fa-graduation-cap",
+    "logo": ""
+  },
+  {
+    "cat": "edu",
+    "name": "UPSC Recruitment Portal (यूपीएससी भर्ती)",
+    "url": "https://upsc.gov.in/",
+    "desc": "संघ लोक सेवा आयोग (IAS/IFS/NDA) परीक्षा की अधिसूचनाएं, एडमिट कार्ड और परिणाम।",
+    "icon": "fa-solid fa-award",
+    "logo": ""
+  },
+  {
+    "cat": "edu",
+    "name": "SSC Candidate Portal (कर्मचारी चयन आयोग)",
+    "url": "https://ssc.gov.in/",
+    "desc": "एसएससी सीजीएल, सीएचएसएल, एमटीएस, जीडी कांस्टेबल भर्ती फॉर्म और परिणाम घोषणा।",
+    "icon": "fa-solid fa-user-tie",
+    "logo": ""
+  },
+  {
+    "cat": "edu",
+    "name": "Swayam Courses Portal (स्वयं ऑनलाइन पाठ्यक्रम)",
+    "url": "https://swayam.gov.in/",
+    "desc": "भारत सरकार का मुफ़्त शिक्षा ई-लर्निंग पोर्टल, जिसमें आईआईटी और केंद्रीय विश्वविद्यालयों के कोर्स उपलब्ध हैं।",
+    "icon": "fa-solid fa-laptop-code",
+    "logo": ""
+  },
+  {
+    "cat": "utility",
+    "name": "Digital Seva Portal - CSC login (डिजिटल सेवा लॉगिन)",
+    "url": "https://digitalseva.csc.gov.in/",
+    "desc": "सीएससी (CSC) वीएलई भाइयों के लिए सरकारी व गैर-सरकारी सेवाएं डिलीवर करने का मुख्य लॉगिन पोर्टल।",
+    "icon": "fa-solid fa-network-wired",
+    "logo": ""
+  },
+  {
+    "cat": "utility",
+    "name": "UPPCL Electricity Bill payment (यूपीपीसीएल बिजली बिल)",
+    "url": "https://www.upenergy.in/uppcl/",
+    "desc": "उत्तर प्रदेश बिजली बिल चेक करें, ऑनलाइन भुगतान करें और ग्रामीण/शहरी कनेक्शन विवरण देखें।",
+    "icon": "fa-solid fa-bolt",
+    "logo": ""
+  },
+  {
+    "cat": "utility",
+    "name": "IRCTC Railway Booking (रेलवे टिकट बुकिंग)",
+    "url": "https://www.irctc.co.in/nget/",
+    "desc": "ट्रेन का टिकट बुक करें, तत्काल टिकट बुकिंग, पीएनआर स्टेटस और ट्रेनों की समय-सारणी जांचें।",
+    "icon": "fa-solid fa-train",
+    "logo": ""
+  },
+  {
+    "cat": "utility",
+    "name": "India Post Tracking Portal (भारतीय डाक ट्रैकिंग)",
+    "url": "https://www.indiapost.gov.in/",
+    "desc": "स्पीड पोस्ट, पंजीकृत पत्र, पार्सल और मनीऑर्डर की रीयल-टाइम ट्रैकिंग स्थिति जानें।",
+    "icon": "fa-solid fa-truck-fast",
+    "logo": ""
+  },
+  {
+    "cat": "utility",
+    "name": "PFMS Public Financial Management (पीएफएमएस पोर्टल)",
+    "url": "https://pfms.nic.in/",
+    "desc": "स्कॉलरशिप व सरकारी योजनाओं का पैसा बैंक खाते में आया या नहीं, उसकी ऑनलाइन स्थिति (Status) चेक करें।",
+    "icon": "fa-solid fa-money-bill-transfer",
+    "logo": ""
+  }
+]
