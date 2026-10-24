@@ -1,4 +1,94 @@
 /*<![CDATA[*/
+
+
+/* --- 01. ROOT TOKENS & MINIMALIST PALETTE --- */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  /* Core Supplied Colors */
+  --sx-berry: #890149;
+  --sx-clay: #ECE5DD;
+  --sx-mint-light: #DCF8C6;
+  --sx-mint-vibrant: #25D366;
+  --sx-sky: #34B7F1;
+  --sx-canvas: #F3F3E7;
+
+  /* Theme Tokens */
+  --theme-primary: #000000;
+  --theme-dark: #200413;
+  --theme-light: #F3F3E7;
+
+  /* Semantic Core */
+  --md-primary: #890149;
+  --md-on-primary: #ffffff;
+  --md-primary-container: #fae4ef;
+  --md-on-primary-container: #500029;
+  
+  --md-secondary: #2f2d2a;
+  --md-on-secondary: #ffffff;
+  --md-secondary-container: #ECE5DD;
+  --md-on-secondary-container: #200413;
+  --md-accent: #34B7F1;
+  --md-accent-container: #e3f5fd;
+  --md-on-accent-container: #0b4e6d;
+
+  /* Feedback Colors */
+  --md-danger: #cf223e;
+  --md-danger-container: #fde8eb;
+  --md-on-danger: #ffffff;
+  --md-on-danger-container: #5c0816;
+
+  --md-success: #1f9d4f;
+  --md-success-container: #DCF8C6;
+  --md-on-success: #ffffff;
+  --md-on-success-container: #0d4621;
+
+  --md-warning: #c26a0b;
+  --md-warning-container: #fef0db;
+  --md-on-warning: #ffffff;
+  --md-on-warning-container: #472600;
+
+  --md-info: #34B7F1;
+  --md-info-container: #e6f6fc;
+  --md-on-info: #ffffff;
+  --md-on-info-container: #0b4f6e;
+
+  /* Swatches & Chips */
+  --google-red: #cf223e;
+  --google-yellow: #c26a0b;
+  --google-green: #25D366;
+  --google-blue: #34B7F1;
+  --md-chip-bg: #e6ded5;
+
+  /* Surfaces & Structural Borders */
+  --md-surface: #F3F3E7;
+  --md-surface-container: #ffffff;
+  --md-surface-variant: #ECE5DD;
+  --md-text: #200413;
+  --md-text-variant: #6b635c;
+  --md-outline: #9e9389;
+  --md-outline-variant: #ded3c7;
+  --md-border: #ded5cb;
+
+  /* Minimalist Elevations (Subtle Crisp Depth) */
+  --md-elevation-0: none;
+  --md-elevation-1: 0 1px 2px rgba(32, 4, 19, 0.04), 0 1px 3px rgba(32, 4, 19, 0.02);
+  --md-elevation-2: 0 4px 12px rgba(32, 4, 19, 0.05), 0 1px 3px rgba(32, 4, 19, 0.02);
+  --md-elevation-3: 0 8px 20px rgba(32, 4, 19, 0.08), 0 2px 6px rgba(32, 4, 19, 0.03);
+  --md-elevation-4: 0 14px 28px rgba(32, 4, 19, 0.10), 0 4px 10px rgba(32, 4, 19, 0.04);
+  --md-elevation-5: 0 20px 40px rgba(32, 4, 19, 0.14), 0 6px 14px rgba(32, 4, 19, 0.05);
+
+  /* Modern Sharp Corner Radii */
+  --border-radius-xs: 3px;
+  --border-radius-sm: 6px;
+  --border-radius-md: 10px;
+  --border-radius-lg: 16px;
+  --border-radius-xl: 22px;
+  --border-radius-full: 9999px;
+}
+
+
+
 html, body {
   top: 0 !important;
   position: static !important;
@@ -78,7 +168,7 @@ body.sxt-dark-mode {
   right: 0;
   width: 100%;
   height: 45px;
-  background-color: var(--md-surface-variant,#f1f5f9);
+  background-color: var(--md-surface-variant);
   border-bottom: 1px solid var(--md-border);
   box-shadow: var(--md-elevation-1);
   z-index: 1000;
