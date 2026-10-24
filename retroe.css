@@ -78,7 +78,7 @@ body.sxt-dark-mode {
   right: 0;
   width: 100%;
   height: 45px;
-  background-color: var(--md-surface-variant);
+  background-color: var(--md-surface-variant,#f1f5f9);
   border-bottom: 1px solid var(--md-border);
   box-shadow: var(--md-elevation-1);
   z-index: 1000;
