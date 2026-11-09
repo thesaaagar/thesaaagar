@@ -227,6 +227,32 @@ iframe[name*="google_translate"],
 .fa-spin-snap-4{animation:fa-spin 1.5s steps(4) infinite}
 .fa-shake{animation:fa-shake 1s ease-in-out infinite}@keyframes fa-shake{0%,100%{transform:rotate(0deg)}10%,30%,50%,70%,90%{transform:rotate(-10deg)}20%,40%,60%,80%{transform:rotate(10deg)}}
 
+
+
+/* Strict 2-column mobile layout enforcement */
+.force-grid-2 {
+display: grid !important;
+grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+gap: 10px !important;
+width: 100% !important;
+}
+.btn-grid-2 {
+display: grid !important;
+grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+gap: 8px !important;
+width: 100% !important;
+}
+.btn-grid-2 .button {
+width: 100% !important;
+margin: 0 !important;
+padding: 10px 8px !important;
+font-size: 13px !important;
+white-space: nowrap !important;
+overflow: hidden !important;
+text-overflow: ellipsis !important;
+}
+
+
 /* ========================================================================== 
    02. TYPOGRAPHY & CODE STYLING 
    ========================================================================== */ 
