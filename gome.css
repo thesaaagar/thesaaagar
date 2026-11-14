@@ -132,21 +132,29 @@ html {
 } 
 
 body { 
-  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif; 
-  background-color: var(--md-surface); 
-  color: var(--md-text); 
-  line-height: 1.5; 
-  min-height: 100vh; 
-  display: flex; 
-  flex-direction: column; 
-  -webkit-font-smoothing: antialiased; 
-  overflow-x: hidden; 
-  width: 100%; 
-  position: static !important; 
-  top: 0px !important; 
-  margin-top: 0px !important; 
-  padding-top: 0px !important; 
-  transform: none !important; 
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--md-surface);
+  color: var(--md-text);
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  width: 100%;
+  position: static !important;
+  top: 0px !important;
+  left: 0px !important;
+  right: 0px !important;
+  bottom: 0px !important;
+  margin: 0px !important;
+  margin-top: 0px !important;
+  margin-right: 0px !important;
+  margin-bottom: 0px !important;
+  margin-left: 0px !important;
+  padding: 0px !important;
+  transform: none !important;
+  transition: background-color 0.25s ease, color 0.25s ease;
 } 
 
 /* Dark Mode Tokens (Deep Stealth Pure Black & Red Glow) */ 
