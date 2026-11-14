@@ -1889,36 +1889,106 @@ input[type="range"]::-webkit-slider-thumb:hover {
   border: 1px solid var(--color-transparent); 
 } 
 
-.hero-banner { 
-  background: var(--sx-black); 
-  color: var(--sx-white); 
-  border-radius: var(--border-radius-xl); 
-  padding: 38px 28px; 
-  box-shadow: var(--md-elevation-3); 
-  position: relative; 
-  overflow: hidden; 
-  border: 1px solid var(--sx-zinc-border); 
-  width: 100%; 
-} 
 
-.hero-banner::after { 
-  content: ''; 
-  position: absolute; 
-  top: 0; 
-  right: 0; 
-  width: 160px; 
-  height: 100%; 
-  background: linear-gradient(90deg, var(--color-transparent) 0%, var(--hero-gradient) 70%); 
-  pointer-events: none; 
-} 
+.hero-banner {
+  width: 100%;
+  margin: 0;
+  background: #09090b;
+  color: #ffffff;
+  border-radius: 0 0 28px 28px;
+  padding: 10px 20px 20px;
+  border-bottom: 3px solid #e50914;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.16);
+  position: relative;
+  overflow: hidden;
+  animation: bannerDrop 0.65s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  transition: box-shadow 0.3s ease, border-bottom-color 0.3s ease;
+}
 
-.hero-banner h1, .hero-banner h2, .hero-banner h3 { 
-  color: var(--sx-white); 
-} 
+.hero-banner:hover {
+  box-shadow: 0 14px 34px rgba(229, 9, 20, 0.22);
+}
 
-.hero-banner p { 
-  color: var(--sx-silver-light); 
-} 
+.hero-banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(229, 9, 20, 0.08),
+    transparent
+  );
+  transform: skewX(-25deg);
+  animation: ambientSweep 5s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.hero-banner h1 {
+  font-size: 1.7rem;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  gap: 12px;
+}
+
+.hero-banner h2, .hero-banner h3 {
+  color: #ffffff;
+  animation: textSlideIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.18s backwards;
+}
+
+.hero-banner h1 span {
+  opacity: 0;
+  animation: textSlideIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.15s forwards;
+}
+
+.hero-banner h1 i {
+  order: 2;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #e50914;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  flex-shrink: 0;
+  box-shadow: 0 0 16px rgba(229, 9, 20, 0.45);
+  opacity: 0;
+  cursor: pointer;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), background-color 0.3s ease;
+  animation: iconPopIn 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.25s forwards,
+             radarPulse 2.4s infinite ease-in-out 0.85s;
+}
+
+.hero-banner h1 i:hover {
+  transform: scale(1.12) rotate(-8deg);
+  background: #ff1e29;
+}
+
+.hero-banner p {
+  font-size: 13.5px;
+  color: #d4d4d8;
+  background: #18181b;
+  padding: 10px 14px;
+  border-radius: 14px;
+  border: 1px solid #27272a;
+  line-height: 1.5;
+  opacity: 0;
+  transition: border-color 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+  animation: descFadeUp 0.65s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
+}
+
+.hero-banner:hover p {
+  border-color: rgba(229, 9, 20, 0.45);
+  transform: translateY(-1px);
+}
 
 /* Steps Container & Cards */ 
 .steps-container { 
