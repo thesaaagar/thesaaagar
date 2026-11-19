@@ -234,7 +234,7 @@ body.sxt-dark-mode #_sx-nav {
 
 /* Exact Spacer matching #_sx-nav height (48px) so Hero sits flush with zero gap */
 ._sx-n-spc {
-  height: 48px;
+  height: 40px;
   width: 100%;
   display: block;
   margin: 0;
