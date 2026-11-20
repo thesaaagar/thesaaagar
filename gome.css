@@ -437,6 +437,7 @@ body.sxt-dark-mode #_sx-drw ._sx-drw-h { background: #202c33; border-bottom: 1px
   margin: 2px 0 6px 20px;
   padding-left: 10px;
   gap: 2px;
+  border-radius: 10px 0px 0px 10px;
   border-left: 2px solid var(--md-primary);
 }
 #_sx-drw ._sx-has-sub._sx-exp ._sx-sub { display: flex; animation: sxSlideReveal 0.24s var(--ease-expo) both; }
@@ -465,7 +466,8 @@ body.sxt-dark-mode #_sx-drw ._sx-drw-h { background: #202c33; border-bottom: 1px
   left: 0;
   right: 0;
   width: 100%;
-  border-top: 1px solid var(--md-border);
+  border-radius: 28px 28px 0 0;
+  border-top: 3px solid var(--md-primary);
   height: 56px;
   display: flex;
   align-items: center;
